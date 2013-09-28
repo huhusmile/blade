@@ -1,0 +1,5 @@
+*{margin:0; padding: 0;}
+ul,li{list-style: none;}
+img{border:0;}
+a{text-decoration: none;}
+body{text-align: center; padding-top: 42px; background-color: #13141a; background-image: url("../images/bg_main.jpg"); background-position: 50% 42px; background-repeat: no-repeat;}
