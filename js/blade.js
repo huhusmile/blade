@@ -140,6 +140,13 @@ function initTabs(){
 		    }
 		}
 	});
+
+
+	$(".careerspic").hover(function(){
+		$(this).children(".careerscover").show();
+	},function(){
+		$(this).children(".careerscover").hide();
+	});
 }
 
 

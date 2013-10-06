@@ -175,6 +175,12 @@
 .soulsplit{float: left; padding: 0 5px; margin-top: 25px; font-size: 12px; color: #87795f;}
 .tt1{display: inline; width: 80px; height: 20px; line-height: 20px; float: left; margin-top: 0px; margin-right: 1px; text-align: center; color: #8b0303; font-family: "Microsoft YaHei"; font-size: 12px; border:3px solid #6b0a0d;}}
 #ttabmain01{width: 229px; height: 60px; border-bottom: 3px solid #6b0a0d;}
+.introlist{width: 229px;}
+.introlist li{width: 113px; height: 52px; float: left;}
+.introlink{display: block; width: 111px; height: 50px; line-height: 50px; color: #fff; font-size: 14px; border: 1px solid #000; font-family: "微软雅黑"; background-image: url("../images/sp_2013.jpg");}
+.introred{background-position: -111px -650px;}
+.intro{background-position: 0 -650px;}
+.intro:hover{background-position: -111px -650px;}
 
 
 
@@ -202,21 +208,94 @@
 .newsconmain:hover{color: #d5a54c;}
 .newsconmain span{width: 9px; height: 9px; display: inline-block; position: absolute; top: 0; margin-left: 5px; background-image: url("../images/sp_2013.jpg");}
 .n{background-position: -184px -624px;}
-.h{background-position: -175px -624px; left:273px;}
+.h1{background-position: -175px -624px;}
 .r{position: absolute; right: 5px; top: 16px; white-space: nowrap; line-height: 17px; display: block; font-size: 12px; font-family: Tahoma; color: #81a1af; margin:0 5px 0 0; float: right; height: 17px;}
 #lay1{display: block;}
 
-.lianmain{display: none;}
+.lianmain{display: none; text-align: left;}
 .ttt{width: 80px; position: absolute; left: 0;}
 #img02{background-position: -230px -603px;}
 
+.datapicbox{width: 132px; height: 200px; float: left; margin-right: 16px; background-image: url("../images/data_main.jpg");}
+.title{width: 222px; height: 23px; float: left;}
+.icon{width: 13px; height: 16px; margin-right: 12px; float: left; background-image: url("../images/data_main.jpg"); background-position: -406px 0;}
+.title h3{font-size: 14px; color: #aeaeae; float: left; font-weight: bold; font-family: "宋体";}
+.line{width: 222px; height: 1px; line-height: 1px; background-image: url("../images/data_line.png"); float: left;}
+.contentt{font-size: 12px; float: right; width: 222px; padding-top: 10px; color: #81a1af;}
+.ranklink{height: 35px; position: absolute; left: 147px; top: 200px; background-image: url("../images/sp_2013.jpg");}
+.linkxinshou{display: block; width: 109px; height: 23px; line-height: 23px; position: absolute; left: 148px; bottom: 0; text-align: center; font-size: 12px; color: #81a1af; background-image: url("../images/data_main.jpg"); background-position: -295px 0;}
+.datapic1{background-position: -264px -51px;}
+.rank1{width: 148px; background-position: 0 -1208px;}
+.datapic2{background-position: -132px -51px;}
+.rank2{width: 183px; background-position: 0 -1243px;}
+.datapic3{background-position: 0px -51px;}
+.rank3{width: 183px; background-position: 0 -1278px;}
+.datapic4{background-position: -396px -51px;}
+.rank4{width: 183px; background-position: 0 -1313px;}
+
+
+
+
 #careermain{width: 620px; margin-top: 20px;}
-.careerlay{display: none; width: 620px; font-size: 13px; color: rgb(129,161,175); font-family: "微软雅黑";}
+.careerlay{display: none; width: 620px; height: 132px; position: relative; font-size: 13px; color: rgb(129,161,175); font-family: "微软雅黑";}
+.careerleft{width: 131px; float: left;}
+.careerpic{width: 119px; height: 94px; padding: 6px; background-color: #23252a;}
+.careertext{float: left; width: 65px; height: 25px; line-height: 25px; margin: 1px 1px 0 0; background-color: #23252a;}
+.careertwide{width: 131px; margin-right: 0;}
+.careertnomar{margin-right: 0;}
+.careerlinks{float: right; height: 23px; margin-top: 4px;}
+.careerlink{float: right; width: 134px; height: 23px; line-height: 23px; margin-left: 4px; font-size: 12px; font-family: "宋体"; color: #639ab4; background-image: url("../images/sp_2013.jpg"); background-position: 0 -700px;}
+.careerskill{ width: 489px; height: 96px; position: absolute; right: 0; top: 36px;}
+.careerskill li{float: left; height: 88px; padding: 4px; margin-left: 4px; display: inline; background-color: #1f242a;}
+.careerstop{height: 62px;}
+.careerspic{width: 60px; height: 60px; position: relative; border: 1px solid #000; float: left; background-image: url("../images/sp_2013.jpg"); background-position: -222px -650px;}
+.careerstext{display: block; line-height: 30px;}
+.careerscover{display: none; width: 60px; height: 60px; position: absolute; left: 0; top: 0; text-decoration: underline; background-color: #000; opacity: 0.8; color: #fff; font-size: 13px; font-family: "微软雅黑"; line-height: 60px; text-align: center;}
+.spicnone{margin-right: 3px; border-color: #1e2025;}
+
+
+
 
 #ad2main{margin-top: 30px; border: 1px solid #000;}
 #inneradmain{padding: 8px; width: 600px; height: 121px; border: 1px solid rgb(70,70,66); background-color: rgb(52,52,52);}
+.innera{width: 194px; height: 119px; display: inline; float: left; margin-right: 6px; border: 1px solid #000;}
+.innera img{width: 194px; height: 119px;}
+
+
 #cmain{width: 620px; margin-top: 30px;}
 #commentmain{width: 372px; float: left;}
+.toolat{width: 369px; height: 273px; font-size: 12px; position: relative; background-image: url("../images/bg.png");}
+.imgbox{position: absolute; left: 1px; top: 1px;}
+.imgbox a{display: block; width: 125px; height: 125px; border: 1px solid black; background-image: url("../images/top.jpg");}
+.imgbox a img{display: none; width: 132px; height: 112px; border: 1px solid black;}
+.atscore{font-weight: normal; height: 30px; position: absolute; left: 5px; top: 150px; font-size: 12px;}
+.atscore b{color: #aeaeae; font-weight: normal;}
+#votetotal{color: #aeaeae;}
+.atscore em{color: #aeaeae; font-weight: normal;}
+.atassess{position: absolute; left: 1px; top: 175px; padding-left: 3px;}
+.atassess ul{display: block; width: 120px; padding: 0;}
+.atassess ul li{display: block; height: 21px; float: left; width: 120px;}
+.atassess ul li span{color: #767c7c; width: 30px; display: block; float: left; font-size: 12px; margin-right: 4px;}
+.atassess ul li div{display: block; float: left;}
+.star1{float: left; margin-right: 4px; width: 12px; height: 11px; display: inline-block; background-image: url("../images/star1.gif");}
+.star2{background-image: url("../images/star2.gif");}
+
+.comments{width: 227px; height: 108px; position: absolute; right: 0; top: 35px;}
+.commlist{padding: 5px 0 0 5px;}
+.p1{display: block; width: 227px; height: 75px; float: left; line-height: 20px; padding-right: 15px; background-image: url("../images/ping.jpg"); background-position: 0 2px; background-repeat: no-repeat; text-align: left; font-weight: normal; text-indent: 30px; color: #aeaeae; font-size: 12px;}
+
+.btnset{background-color: #131419; position: absolute; left: 10px; top: 150px;}
+.btnxw{display: inline-block; float: left; width: 109px; height: 23px; position: absolute; left: 135px; top: 0; color: #8cc3d6; line-height: 23px; margin-right: 3px; background-image: url("../images/btn11.jpg");}
+.btnhp{display: inline-block; float: left; width: 109px; height: 23px; position: absolute; left: 250px; top: 0; color: #8cc3d6; line-height: 23px; margin-right: 3px; background-image: url("../images/btn21.jpg");}
+.btncommlist{display: inline-block; float: left; width: 224px; height: 23px; position: absolute; left: 135px; top: 28px; color: #8cc3d6; line-height: 23px; margin-right: 3px; background-image: url("../images/btn31.jpg");}
+.btncomm{display: block; width: 217px; height: 67px; position: absolute; left: 145px; bottom: 0; padding-right: 7px; background-image: url("../images/btn41.jpg"); line-height: 88px; color: #d3b282;}
+
+
+.convideomain{width: 227px; height: 316px;}
+.convideomain li{width: 227px; height: 158px; float: left;}
+.videobox{display: block; width: 226px; height: 128px;}
+.titconvideo{width: 226px; height: 30px; line-height: 30px; display: block; color: #526670; background-image: url("../images/sp_2013.jpg"); background-position: -261px -1019px; font-size: 12px;}
+
 
 #videomain{width: 227px; float: right;}
 
